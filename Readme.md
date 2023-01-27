@@ -61,15 +61,15 @@ Bootcamp Orange Tech + | BackEnd</h1>
 
 ### [Clique aqui para acessar TODOS os Desafios deste Módulo]()
 
-  - [ ] Desafio: Os números são iguais? [Clique aqui para acessar o Código.]()
+  - [x] Desafio: Os números são iguais? [Clique aqui para acessar o Código.]()
 
-  - [ ] Desafio: Somando múltiplos. [Clique aqui para acessar o Código.]()
+  - [x] Desafio: Somando múltiplos. [Clique aqui para acessar o Código.]()
 
-  - [ ]  Desafio: Uma chamada recursiva. [Clique aqui para acessar o Código]()
+  - [x]  Desafio: Uma chamada recursiva. [Clique aqui para acessar o Código]()
 
-  - [ ] Desafio: FizzBuzz. [Clique aqui para acessar o Código.]()
+  - [x] Desafio: FizzBuzz. [Clique aqui para acessar o Código.]()
   
-  - [ ] Desafio: Busca Sequencial. [Clique aqui para acessar o Código.]()
+  - [x] Desafio: Busca Sequencial. [Clique aqui para acessar o Código.]()
 
  <br/>
 
@@ -119,15 +119,15 @@ Bootcamp Orange Tech + | BackEnd</h1>
 
    # #8 Fortalecendo sua Carreira Profissional
 
-  - [ ] Deixando Seu LinkedIn Atrativo
+  - [x] Deixando Seu LinkedIn Atrativo
 
-  - [ ] Turbine Seu Currículo na DIO
+  - [x] Turbine Seu Currículo na DIO
 
-  - [ ] Trabalhando em Equipes Ágeis
+  - [x] Trabalhando em Equipes Ágeis
 
-  - [ ] Transformando seu Conhecimento em Artigos Técnicos
+  - [x] Transformando seu Conhecimento em Artigos Técnicos
   
-  - [ ] Se Preparando Para Uma Entrevista
+  - [x] Se Preparando Para Uma Entrevista
 
  <br/>
 
@@ -135,7 +135,7 @@ Bootcamp Orange Tech + | BackEnd</h1>
 
 ### _#BootcampOrangeTech+BackEnd_
 
-### _#ContratoDeCompromisso_
+### _#ContratoDeCompromissoCumprido_
 
   <img height="200vh" src="Images/anime-sombra.gif?raw=true"><br><a href="https://www.linkedin.com/in/erivamjr/" target="_blank"><img height="25vh" src="Images/linkedin.png?raw=true" target="_blank"></a>
   <a href = "mailto:erivam_jr@hotmail.com"><img height="25vh" src="Images/contato.png?raw=true" target="_blank"></a><br>
