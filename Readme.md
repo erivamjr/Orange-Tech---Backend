@@ -137,7 +137,7 @@ Bootcamp Orange Tech + | BackEnd</h1>
 
 ### _#ContratoDeCompromisso_
 
-  <img height="200vh" src="Images/anime-sombra.gif?raw=true"><br><a href="https://www.linkedin.com/in/erivamjr/" target="_blank"><img height="25vh" src="https://github.com/leticiapalaro/leticiapalaro/blob/main/linkedin.png?raw=true" target="_blank"></a>
+  <img height="200vh" src="Images/anime-sombra.gif?raw=true"><br><a href="https://www.linkedin.com/in/erivamjr/" target="_blank"><img height="25vh" src="Images/linkedin.png?raw=true" target="_blank"></a>
   <a href = "mailto:erivam_jr@hotmail.com"><img height="25vh" src="Images/contato.png?raw=true" target="_blank"></a><br>
 
 </div>
