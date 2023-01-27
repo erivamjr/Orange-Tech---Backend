@@ -105,15 +105,15 @@ Bootcamp Orange Tech + | BackEnd</h1>
 
 ### [Clique aqui para acessar TODOS os Desafios deste Módulo]()
 
-  - [ ] Desafio: Checagem de Palíndromo [Clique aqui para acessar o Código.]()
+  - [ ] Desafio: Salvando Músicas [Clique aqui para acessar o Código.]()
 
-  - [ ] Desafio: Validação de Parênteses [Clique aqui para acessar o Código.]()
+  - [ ] Desafio: Pontos na Carteira [Clique aqui para acessar o Código.]()
 
-  - [ ]  Desafio: Quadrados Perfeitos [Clique aqui para acessar o Código.]()
+  - [ ] Desafio: Imóveis Disponíves [Clique aqui para acessar o Código.]()
 
-  - [ ] Desafio: Classificando Matrizes [Clique aqui para acessar o Código.]()
+  - [ ] Desafio: DC Monalds [Clique aqui para acessar o Código.]()
   
-  - [ ] Desafio: Fatorial Desajeitado [Clique aqui para acessar o Código.]()
+  - [ ] Desafio: Camarote do Blue Cold Ice Cubes [Clique aqui para acessar o Código.]()
 
  <br/>
 
