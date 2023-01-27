@@ -1,0 +1,143 @@
+<div align="center">
+Olá, este repositório é destinado ao conteúdo do 
+
+
+
+<h1><img height="200vh" src="Images/inter.png">
+
+Bootcamp Orange Tech + | BackEnd</h1>
+
+<h3> Andamento do Processo:</h3>
+
+<img height="300vh" src="Images/developer.gif">
+
+</div>
+
+# #1 Prepare-se para a Jornada
+
+  - [x] Conheça as Oportunidades da DIO
+
+  - [x] Boas-vindas ao Bootcamp Orange Tech + | BackEnd
+
+  - [x] Seja Protagonista Neste Bootcamp
+
+  - [x] Boas-vindas ao Orange Tech + | BackEnd
+ 
+  - [x] Introdução ao Desenvolvimento Moderno de Software
+
+  - [x] **Orange Tech + | BackEnd | Aula Inaugural**
+
+  <br/>
+
+# #2 Princípios de Desenvolvimento de Software
+
+  - [x] Introdução à Programação e Pensamento Computacional
+
+  - [x] Introdução ao Git e ao GitHub
+
+  - [x] Como Entregar seu Desafio de Projeto
+
+  - [x] Criando seu Primeiro Repositório no GitHub Para Compartilhar Seu Progresso
+
+  <br/>
+
+# #3 Conhendo a Linguagem de Programação Java
+
+  - [x] Introdução à Plataforma Java
+
+  - [x] Ambiente de Desenvolvimento Java
+
+  - [x]  Aprendendo a Sintaxe Java
+
+  - [x] Lógica Condicional e Controle de Fluxos em Java
+  
+  - [x] Estruturas de Repetição e Arrays em Java
+  
+  - [x] Entendendo Métodos Java
+
+ <br/>
+
+ # #4 Dominando Algoritmos Básicos com Desafios de Código Java
+
+### [Clique aqui para acessar TODOS os Desafios deste Módulo]()
+
+  - [ ] Desafio: Os números são iguais? [Clique aqui para acessar o Código.]()
+
+  - [ ] Desafio: Somando múltiplos. [Clique aqui para acessar o Código.]()
+
+  - [ ]  Desafio: Uma chamada recursiva. [Clique aqui para acessar o Código]()
+
+  - [ ] Desafio: FizzBuzz. [Clique aqui para acessar o Código.]()
+  
+  - [ ] Desafio: Busca Sequencial. [Clique aqui para acessar o Código.]()
+
+ <br/>
+
+ # #5 Programação Orientada a Objetos com Java
+
+  - [x] Programação Orientada a Objetos
+
+  - [x] Trabalhando com Colletions Java
+
+  - [x]  Debugging Java
+
+  - [x] Tratamento de Exceções em Java
+  
+  - [x] Abstraindo um Bootcamp Usando Orientação a Objetos em Java
+
+ <br/>
+
+  # #6 Ganhando Produtividade com Spring Framework
+
+  - [x] Principais Protocolos de Comunicação da Internet
+
+  - [x] Gerenciamento de Dependências e Build em Java com Maven
+
+  - [x]  Imersão no Spring Framework com Spring Boot
+
+  - [x] Criando uma API REST Documentada com Spring Web e Swagger
+  
+  - [x] Explorando Padrões de Projetos na Prática com Java
+
+ <br/>
+
+   # #7 Dominando Algoritmos Intermediários com Desafios de Código Java
+
+### [Clique aqui para acessar TODOS os Desafios deste Módulo]()
+
+  - [ ] Desafio: Checagem de Palíndromo [Clique aqui para acessar o Código.]()
+
+  - [ ] Desafio: Validação de Parênteses [Clique aqui para acessar o Código.]()
+
+  - [ ]  Desafio: Quadrados Perfeitos [Clique aqui para acessar o Código.]()
+
+  - [ ] Desafio: Classificando Matrizes [Clique aqui para acessar o Código.]()
+  
+  - [ ] Desafio: Fatorial Desajeitado [Clique aqui para acessar o Código.]()
+
+ <br/>
+
+   # #8 Fortalecendo sua Carreira Profissional
+
+  - [ ] Deixando Seu LinkedIn Atrativo
+
+  - [ ] Turbine Seu Currículo na DIO
+
+  - [ ] Trabalhando em Equipes Ágeis
+
+  - [ ] Transformando seu Conhecimento em Artigos Técnicos
+  
+  - [ ] Se Preparando Para Uma Entrevista
+
+ <br/>
+
+<div align="center">
+
+### _#BootcampOrangeTech+BackEnd_
+
+### _#ContratoDeCompromisso_
+
+  <img height="200vh" src="Images/anime-sombra.gif?raw=true"><br><a href="https://www.linkedin.com/in/erivamjr/" target="_blank"><img height="25vh" src="https://github.com/leticiapalaro/leticiapalaro/blob/main/linkedin.png?raw=true" target="_blank"></a>
+  <a href = "mailto:erivam_jr@hotmail.com"><img height="25vh" src="Images/contato.png?raw=true" target="_blank"></a><br>
+
+</div>
