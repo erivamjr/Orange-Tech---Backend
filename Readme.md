@@ -61,15 +61,15 @@ Bootcamp Orange Tech + | BackEnd</h1>
 
 ### [Clique aqui para acessar TODOS os Desafios deste Módulo]()
 
-  - [x] Desafio: Os números são iguais? [Clique aqui para acessar o Código.]()
+  - [x] Desafio: Nesada do Sobrinho. [Clique aqui para acessar o Código.](https://github.com/erivamjr/Orange-Tech---Backend/tree/main/modulo-4-basico/DesafioMesadaDoSobrinho)
 
-  - [x] Desafio: Somando múltiplos. [Clique aqui para acessar o Código.]()
+  - [x] Desafio: Download de Pacotes. [Clique aqui para acessar o Código.](https://github.com/erivamjr/Orange-Tech---Backend/tree/main/modulo-4-basico/DesafioDownloadDePacotes)
 
-  - [x]  Desafio: Uma chamada recursiva. [Clique aqui para acessar o Código]()
+  - [x]  Desafio: Leitura de Gertrudes. [Clique aqui para acessar o Código](https://github.com/erivamjr/Orange-Tech---Backend/tree/main/modulo-4-basico/DesafioLeituraDaGertrudes)
 
-  - [x] Desafio: FizzBuzz. [Clique aqui para acessar o Código.]()
+  - [x] Desafio: Lojinha de Doces. [Clique aqui para acessar o Código.](https://github.com/erivamjr/Orange-Tech---Backend/tree/main/modulo-4-basico/DesafioLoginhaDeDoces)
   
-  - [x] Desafio: Busca Sequencial. [Clique aqui para acessar o Código.]()
+  - [x] Desafio: Industria da Multa. [Clique aqui para acessar o Código.](https://github.com/erivamjr/Orange-Tech---Backend/tree/main/modulo-4-basico/DesafioIndustriaDaMulta)
 
  <br/>
 
