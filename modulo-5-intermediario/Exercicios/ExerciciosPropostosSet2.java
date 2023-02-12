@@ -1,84 +1,77 @@
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.Set;
+import java.util.*;
 
 public class ExerciciosPropostosSet2 {
     public static void main(String[] args) {
 
-        // Exercício
-        // Crie um conjunto com as 5 linguagens de programação favoritas de uma pessoa,
-        // depois adicione mais 3 linguagens de programação nesse conjunto,
-        // verifique se o conjunto está vazio, exiba no console todas as linguagens que possuem
-        // uma letra 'a' nesse nome, depois remova todas as linguagens que não possuem 'm' nesse nome
-        // e exiba as linguagens no console, depois limpe o conjunto e verifique se ele está vazio,
-        // use o método iterator() para exibir as linguagens no console.
 
-        Set<LinguagemFavorita> linguagens = new HashSet<>(Set.of(
-                new LinguagemFavorita("Java", 1995, "IntelliJ"),
-                new LinguagemFavorita("JavaScript", 1995, "Visual Studio Code"),
-                new LinguagemFavorita("Python", 1991, "PyCharm"),
-                new LinguagemFavorita("Kotlin", 2011, "IntelliJ"),
-                new LinguagemFavorita("C#", 2000, "Visual Studio")
-        ));
+        System.out.println("--\tOrdem Aleatória\t---");
 
-        System.out.println("Exercício 1");
-        System.out.println(linguagens);
+        Set<LinguagemFavorita> linguagens = new HashSet<>(){{
+            add(new LinguagemFavorita("Java", 1995, "IntelliJ"));
+            add(new LinguagemFavorita("JavaScript", 1995, "Visual Studio Code"));
+            add(new LinguagemFavorita("Python", 1991, "PyCharm"));
+            add(new LinguagemFavorita("Kotlin", 2011, "IntelliJ"));
+            add(new LinguagemFavorita("C#", 2000, "Visual Studio"));
 
-        linguagens.add(new LinguagemFavorita("C", 1972, "Code::Blocks"));
-        linguagens.add(new LinguagemFavorita("C++", 1983, "Code::Blocks"));
-        linguagens.add(new LinguagemFavorita("PHP", 1995, "Visual Studio Code"));
+        }};
 
-        System.out.println(linguagens.contains(new LinguagemFavorita("Java", 1995, "IntelliJ")));
-        System.out.println(linguagens.size());
-
-
-        System.out.println(linguagens.isEmpty());
-
-        for (LinguagemFavorita linguagem : linguagens) {
-            if (linguagem.getNome().startsWith("J") && linguagem.getNome().endsWith("a")) {
-                System.out.println(linguagem);
-            }
+        for (LinguagemFavorita linguagemFavorita : linguagens) {
+            System.out.println(linguagemFavorita.getNome() + " - " + linguagemFavorita.getAnoDeCriacao() + " - " + linguagemFavorita.getIde());
         }
 
+        System.out.println("--\tOrdem de Inserção\t---");
 
-        for (LinguagemFavorita linguagem : linguagens) {
-            if (linguagem.getNome().contains("a")) {
-                System.out.println(linguagem);
-            }
+        Set<LinguagemFavorita> linguagens2 = new LinkedHashSet<>(){{
+            add(new LinguagemFavorita("Java", 1995, "IntelliJ"));
+            add(new LinguagemFavorita("JavaScript", 1995, "Visual Studio Code"));
+            add(new LinguagemFavorita("Python", 1991, "PyCharm"));
+            add(new LinguagemFavorita("Kotlin", 2011, "IntelliJ"));
+            add(new LinguagemFavorita("C#", 2000, "Visual Studio"));
+
+        }};
+
+        for (LinguagemFavorita linguagemFavorita : linguagens2) {
+            System.out.println(linguagemFavorita.getNome() + " - " + linguagemFavorita.getAnoDeCriacao() + " - " + linguagemFavorita.getIde());
         }
 
-        linguagens.removeIf(linguagem -> !linguagem.getNome().contains("m"));
-        System.out.println(linguagens);
+        System.out.println("--\tOrdem Natural (Nome)\t---");
 
+        Set<LinguagemFavorita> linguagens3 = new TreeSet<>(linguagens2);
 
-        linguagens.clear();
-        System.out.println(linguagens.isEmpty());
-
-
-
-
-        linguagens = new HashSet<>(Set.of(
-                new LinguagemFavorita("Java", 1995, "IntelliJ"),
-                new LinguagemFavorita("JavaScript", 1995, "Visual Studio Code"),
-                new LinguagemFavorita("Python", 1991, "PyCharm"),
-                new LinguagemFavorita("Kotlin", 2011, "IntelliJ"),
-                new LinguagemFavorita("C#", 2000, "Visual Studio")
-        ));
-
-        linguagens.add(new LinguagemFavorita("C", 1972, "Code::Blocks"));
-        linguagens.add(new LinguagemFavorita("C++", 1983, "Code::Blocks"));
-        linguagens.add(new LinguagemFavorita("PHP", 1995, "Visual Studio Code"));
-
-        Iterator<LinguagemFavorita> iterator = linguagens.iterator();
-        while (iterator.hasNext()) {
-            System.out.println(iterator.next());
+        for (LinguagemFavorita linguagemFavorita : linguagens3) {
+            System.out.println(linguagemFavorita.getNome() + " - " + linguagemFavorita.getAnoDeCriacao() + " - " + linguagemFavorita.getIde());
         }
 
+        System.out.println("--\tOrdem IDE\t---");
 
+        Set<LinguagemFavorita> linguagens4 = new TreeSet<>(new ComparatorIde());
+        linguagens4.addAll(linguagens2);
+
+        for (LinguagemFavorita linguagemFavorita : linguagens4) {
+            System.out.println(linguagemFavorita.getNome() + " - " + linguagemFavorita.getAnoDeCriacao() + " - " + linguagemFavorita.getIde());
+        }
+
+        System.out.println("--\tOrdem Ano de Criação e Nome\t---");
+
+        Set<LinguagemFavorita> linguagens5 = new TreeSet<>(new ComparatorNome());
+        linguagens5.addAll(linguagens2);
+
+        for (LinguagemFavorita linguagemFavorita : linguagens5) {
+            System.out.println(linguagemFavorita.getNome() + " - " + linguagemFavorita.getAnoDeCriacao() + " - " + linguagemFavorita.getIde());
+        }
+
+        System.out.println("--\tOrdem Nome, ano de criação e IDE\t---");
+
+        Set<LinguagemFavorita> linguagens6 = new TreeSet<>(new ComparatorNomeAnoDeCriacaoIde());
+        linguagens6.addAll(linguagens2);
+
+        for (LinguagemFavorita linguagemFavorita : linguagens6) {
+            System.out.println(linguagemFavorita.getNome() + " - " + linguagemFavorita.getAnoDeCriacao() + " - " + linguagemFavorita.getIde());
+        }
     }
 }
 
-class LinguagemFavorita {
+class LinguagemFavorita implements Comparable<LinguagemFavorita> {
     private String nome;
     private Integer anoDeCriacao;
     private String ide;
@@ -121,4 +114,62 @@ class LinguagemFavorita {
                 ", ide='" + ide + '\'' +
                 '}';
     }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        LinguagemFavorita that = (LinguagemFavorita) o;
+        return Objects.equals(nome, that.nome) && Objects.equals(anoDeCriacao, that.anoDeCriacao) && Objects.equals(ide, that.ide);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(nome, anoDeCriacao, ide);
+    }
+
+    @Override
+    public int compareTo(LinguagemFavorita linguagemFavorita) {
+        return this.getNome().compareToIgnoreCase(linguagemFavorita.getNome());
+    }
 }
+
+class ComparatorIde implements Comparator<LinguagemFavorita> {
+
+    @Override
+    public int compare(LinguagemFavorita l1, LinguagemFavorita l2) {
+        int ide = l1.getIde().compareToIgnoreCase(l2.getIde());
+        if (ide != 0) return ide;
+
+        return l1.compareTo(l2);
+    }
+}
+
+class ComparatorNome implements Comparator<LinguagemFavorita> {
+
+    @Override
+    public int compare(LinguagemFavorita l1, LinguagemFavorita l2) {
+        int nome = l1.getNome().compareToIgnoreCase(l2.getNome());
+        if (nome != 0) return nome;
+
+        int ano = Integer.compare(l1.getAnoDeCriacao(), l2.getAnoDeCriacao());
+        if (ano != 0) return ano;
+
+        return l1.getIde().compareToIgnoreCase(l2.getIde());
+    }
+}
+
+class ComparatorNomeAnoDeCriacaoIde implements Comparator<LinguagemFavorita> {
+
+    @Override
+    public int compare(LinguagemFavorita l1, LinguagemFavorita l2) {
+        int nome = l1.getNome().compareToIgnoreCase(l2.getNome());
+        if (nome != 0) return nome;
+
+        int ano = Integer.compare(l1.getAnoDeCriacao(), l2.getAnoDeCriacao());
+        if (ano != 0) return ano;
+
+        return l1.getIde().compareToIgnoreCase(l2.getIde());
+    }
+}
+
