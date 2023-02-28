@@ -105,15 +105,15 @@ Bootcamp Orange Tech + | BackEnd</h1>
 
 ### [Clique aqui para acessar TODOS os Desafios deste Módulo]()
 
-  - [ ] Desafio: Salvando Músicas [Clique aqui para acessar o Código.]()
+  - [x] Desafio: Salvando Músicas [Clique aqui para acessar o Código.]()
 
-  - [ ] Desafio: Pontos na Carteira [Clique aqui para acessar o Código.]()
+  - [x] Desafio: Pontos na Carteira [Clique aqui para acessar o Código.]()
 
-  - [ ] Desafio: Imóveis Disponíves [Clique aqui para acessar o Código.]()
+  - [x] Desafio: Imóveis Disponíves [Clique aqui para acessar o Código.]()
 
-  - [ ] Desafio: DC Monalds [Clique aqui para acessar o Código.]()
+  - [x] Desafio: DC Monalds [Clique aqui para acessar o Código.]()
   
-  - [ ] Desafio: Camarote do Blue Cold Ice Cubes [Clique aqui para acessar o Código.]()
+  - [x] Desafio: Camarote do Blue Cold Ice Cubes [Clique aqui para acessar o Código.]()
 
  <br/>
 
