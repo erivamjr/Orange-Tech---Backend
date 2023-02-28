@@ -10,5 +10,7 @@ public class DesafioSalvandoMusicas {
         } else {
             System.out.println("Deletar");
         }
+
+        scanner.close();
     }
 }
